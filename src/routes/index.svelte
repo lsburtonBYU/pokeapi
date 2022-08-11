@@ -1,6 +1,6 @@
 <script>
 	import Counter from '$lib/Counter.svelte';
-	import Card from '$lib/Components/Card.svelte';
+	import Card from '$lib/components/Card.svelte';
 
 	let index = 133;
 	let path = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index}.png`;
