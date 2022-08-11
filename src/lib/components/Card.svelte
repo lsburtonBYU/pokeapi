@@ -3,11 +3,12 @@
 	export let imageURL =
 		'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png';
 	export let imageWidth = '100px';
+	let properName = name.charAt(0).toUpperCase() + name.slice(1);
 </script>
 
 <div class="card">
 	<img src={imageURL} loading="lazy" alt={name} style="width: {imageWidth}" />
-	<p>{name}</p>
+	<p>{properName}</p>
 </div>
 
 <style>
