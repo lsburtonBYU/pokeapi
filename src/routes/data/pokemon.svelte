@@ -1,16 +1,13 @@
 <script>
-	// The page always has access to props from `GET`...
 	export let items;
-	// ...plus props from `POST` when the page is rendered
-	// in response to a POST request, for example after
-	// submitting the form below
+
 	export let errors;
 
 	const pokeList = items.results;
 	const offset = 0;
 
-	console.log(items.results);
-	console.log(errors);
+	// console.log(items.results);
+	// console.log(errors);
 </script>
 
 <svelte:head>
